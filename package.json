@@ -1,0 +1,12 @@
+{
+  "name": "dbid",
+  "version": "0.2.1",
+  "description": "Monotonic unique database identifier generator",
+  "author": "Daniel Escoz <darkhogg+npm.dbid@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {
+    "base64-lex": "^1.0.0",
+    "node-machine-id": "^1.1.10"
+  }
+}
