@@ -1,6 +1,6 @@
 {
   "name": "dbid",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Database identifier generator",
   "author": "Daniel Escoz <darkhogg+npm.dbid@gmail.com>",
   "license": "MIT",
