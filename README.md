@@ -17,14 +17,21 @@ Usage
 Install this package using npm:
 
 ```
-    $ npm install dbid
+$ npm install dbid
 ```
 
 The only exported symbol is a function that generates IDs:
 
 ```
-    const dbid = require('dbid');
-    const id = dbid(); // example: "0MDHSlhrk5Y~UnklHOMKDG"
+const dbid = require('dbid');
+const id = dbid(); // example: "0MDHSlhrk5Y~UnklHOMKDG"
+```
+
+You can also generate IDs on the command line:
+
+```
+$ npx dbid
+0MGKTkrIk5Y~UoG36b9yq0
 ```
 
 

@@ -1,10 +1,13 @@
 {
   "name": "dbid",
-  "version": "0.3.0",
-  "description": "Database identifier generator",
+  "version": "1.0.0",
+  "description": "Database Identifier Generator",
   "author": "Daniel Escoz <darkhogg+npm.dbid@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
+  "bin": {
+    "dbid": "./bin/dbid.js"
+  },
   "dependencies": {
     "base64-lex": "^1.0.0",
     "node-machine-id": "^1.1.10"
